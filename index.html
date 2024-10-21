@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <h1 id="mainHeading">To-Do list</h1>
+    <div class="grid-content">
+    <input type="text" placeholder="Enter Task here" id="taskInput">
+    <input type="date" id="dateInput">
+    <button class="add-btn" onClick="addTask();">Add</button>
+    <button class = "delete-btn deleteAll" onClick="deleteAll()">Delete All</button>
+    </div>
+    <div class="toDoitems grid-content"></div>
+
+
+    <script src="todo.js"></script>
+</body>
+</html>
